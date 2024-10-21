@@ -1,43 +1,19 @@
 # Лампочка информер
 Свет, звук, потоковое воспроизведение
 
-![Лампочка](https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png)
-![Схема](2024-10-21_08-06-34.png)
+![Лампочка](lamp.png)
+![Схема](scheme.png)
 
-
-https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png
-<img src="[[http://url.to/image.png](https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png)](https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png)" width="200" height="200">
-
-![]([https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png) | width=100)
-
-![]([https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png=250x250](https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png)=250x250)
-
-
-<img src="[https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png](https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png)." data-canonical-src="[https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png)" width="200" height="400" />
-
-
-> Корпус
+> Лампа
 https://www.wildberries.ru/catalog/160442273/detail.aspx
 *Контроллер* **ESP32-C3**
 *Усилитель* **MAX98357A**
 
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-
 > Визуальные эффекты при воспроизведении, паузе, бездействии и изменении громкости
 {.is-warning}
 
-
 > Код ESPHOME
 {.is-success}
-
 
 ``` yaml
 substitutions:
