@@ -1,5 +1,4 @@
 # Лампочка информер
-Свет, звук, потоковое воспроизведение
 
 ![Лампочка](lamp.png)
 ![Схема](scheme.png)
@@ -8,12 +7,14 @@
 https://www.wildberries.ru/catalog/160442273/detail.aspx
 
 >*Контроллер* **ESP32-C3**
+https://aliexpress.ru/item/1005006406538478.html?sku_id=12000037053726015&spm=a2g2w.productlist.search_results.0.7f7e5663hPNJKF
 
 >*Усилитель* **MAX98357A**
+https://aliexpress.ru/item/1005007108035926.html?sku_id=12000039428551705&spm=a2g2w.productlist.search_results.0.65046aeanJUEeW
 
-> Визуальные эффекты при воспроизведении, паузе, бездействии и изменении громкости
+### Визуальные эффекты при воспроизведении, паузе, бездействии и изменении громкости
 
-> Код ESPHOME
+# Код ESPHOME
 
 ``` yaml
 substitutions:
