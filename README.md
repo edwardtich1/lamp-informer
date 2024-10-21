@@ -2,6 +2,8 @@
 Свет, звук, потоковое воспроизведение
 
 ![Лампочка](https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png)
+![Схема](2024-10-21_08-06-34.png)
+
 
 https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png
 <img src="[[http://url.to/image.png](https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png)](https://wiki.edhome.keenetic.pro/2024-10-21_08-10-23.png)" width="200" height="200">
