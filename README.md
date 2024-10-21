@@ -6,14 +6,14 @@
 
 > Лампа
 https://www.wildberries.ru/catalog/160442273/detail.aspx
-*Контроллер* **ESP32-C3**
-*Усилитель* **MAX98357A**
+
+>*Контроллер* **ESP32-C3**
+
+>*Усилитель* **MAX98357A**
 
 > Визуальные эффекты при воспроизведении, паузе, бездействии и изменении громкости
-{.is-warning}
 
 > Код ESPHOME
-{.is-success}
 
 ``` yaml
 substitutions:
@@ -53,10 +53,6 @@ wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password  
   ap: {}
-  manual_ip:
-    static_ip: 10.0.1.42
-    gateway: 10.0.1.1
-    subnet: 255.255.255.0
 
 captive_portal:
 
@@ -73,7 +69,7 @@ media_player:
     id: media_player1
     dac_type: external
     i2s_audio_id: i2s_out
-    i2s_dout_pin: GPIO2 #SDOUT MAX98357A - DIN
+    i2s_dout_pin: GPIO2 ## SDOUT MAX98357A - DIN
     mode: stereo
     on_state:
       - lambda:
